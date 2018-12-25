@@ -1,0 +1,7 @@
+# https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package
+
+#git
+.gitignore
+
+#dev tools
+lib/

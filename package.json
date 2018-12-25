@@ -1,0 +1,30 @@
+{
+  "name": "@damenor/redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "react-redux": "^6.0.0",
+    "react-router-redux": "^4.0.8",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6"
+  },
+  "keywords": [
+    "utils",
+    "react",
+    "redux"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damenor/redux.git"
+  },
+  "bugs": {
+    "url": "https://github.com/damenor/redux/issues"
+  },
+  "homepage": "https://github.com/damenor/redux#readme",
+  "author": "damenor <damenor.develop@gmail.com> (https://github.com/damenor)",
+  "license": "MIT"
+}
