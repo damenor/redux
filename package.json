@@ -1,19 +1,21 @@
 {
   "name": "@damenor/redux",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Utils for Redux",
   "main": "lib/index.js",
   "scripts": {
     "package": "npm publish --access=public && npm run push",
-    "push": "git add * && git commit -m 'v0.0.13' && git push origin"
+    "push": "git add * && git commit -m 'v0.0.14' && git push origin"
   },
   "dependencies": {
+    "react": "^16.7.0",
     "react-redux": "^6.0.0",
     "react-router-redux": "^4.0.8",
     "redux": "^4.0.1",
     "redux-logger": "^3.0.6"
   },
   "peerDependencies": {
+    "react": "^16.7.0",
     "react-redux": "^6.0.0",
     "react-router-redux": "^4.0.8",
     "redux": "^4.0.1",

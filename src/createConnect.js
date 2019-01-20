@@ -12,14 +12,12 @@ const mapStateToProps = (state, keys) => {
 const mapDispatchToProps = (dispatch, actions) => bindActionCreators(actions, dispatch)
 
 export const createConnect = (Component, keys = []) => {
-  
   let actions = {}
   let keysState = []
-  
   keys.map(key => {
     keysState = [...keysState, key.props]
     actions[key.setProps] = data => ({ type: key.type, data })
   })
-
+  console.log(keysState, actions)
   return connect(state => mapStateToProps(state, keysState), dispatch => mapDispatchToProps(dispatch, actions))(Component)
 }
